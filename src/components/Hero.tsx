@@ -76,9 +76,7 @@ Full Stack Developer
         
         </p>
 
-        {/* BUTTONS */}
-        <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-     {/* BUTTONS */}
+{/* BUTTONS */}
 <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
   
   <button
@@ -100,7 +98,6 @@ Full Stack Developer
   </button>
 
 </div>
-        </div>
 
       </motion.div>
     </section>
