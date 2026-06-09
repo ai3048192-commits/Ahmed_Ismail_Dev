@@ -78,13 +78,28 @@ Full Stack Developer
 
         {/* BUTTONS */}
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-4 bg-cyan-500 text-black font-bold rounded-xl hover:scale-105 transition">
-            View Projects
-          </button>
+     {/* BUTTONS */}
+<div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+  
+  <button
+    onClick={() => {
+      document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+    }}
+    className="px-8 py-4 bg-cyan-500 text-black font-bold rounded-xl hover:scale-105 transition"
+  >
+    View Projects
+  </button>
 
-          <button className="px-8 py-4 border border-white/20 text-white rounded-xl hover:bg-white/10 transition">
-            Contact Me
-          </button>
+  <button
+    onClick={() => {
+      document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+    }}
+    className="px-8 py-4 border border-white/20 text-white rounded-xl hover:bg-white/10 transition"
+  >
+    Contact Me
+  </button>
+
+</div>
         </div>
 
       </motion.div>
