@@ -72,7 +72,9 @@ export default function Hero() {
         {/* DESCRIPTION */}
         <p className="mt-6 text-slate-300 max-w-xl mx-auto text-base sm:text-lg">
 Full Stack Developer
-أقوم بتطوير تطبيقات ويب متكاملة (Full Stack) باستخدام React في الواجهة الأمامية، مع بناء وإدارة الـ Backend وقواعد البيانات، مع التركيز على الأداء، تجربة المستخدم، والتصميم العصري.        </p>
+أقوم بتطوير تطبيقات ويب متكاملة (Full Stack) باستخدام React في الواجهة الأمامية، مع بناء وإدارة الـ Backend وقواعد البيانات، مع التركيز على الأداء، تجربة المستخدم، والتصميم العصري
+        
+        </p>
 
         {/* BUTTONS */}
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
